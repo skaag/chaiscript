@@ -1,0 +1,11 @@
+Package: chaiscript
+Version: 4.2.0
+Architecture: amd64
+Maintainer: Allen Short <washort42@gmail.com>
+Installed-Size: 5437
+Depends: libboost-thread1.46.1 (>= 1.46.1-1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Section: interpreters
+Priority: extra
+Homepage: https://github.com/washort/ChaiScript
+Description: Embedded dynamic language in C++
+ A JS-like language designed for embedding in C++ programs.

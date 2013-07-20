@@ -1,0 +1,15 @@
+Source: chaiscript
+Section: interpreters
+Priority: extra
+Maintainer: Allen Short <washort42@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cdbs, cmake, libboost-thread-dev
+Standards-Version: 3.9.2
+Homepage: https://github.com/washort/ChaiScript
+Vcs-Git: git://github.com/washort/ChaiScript.git
+Vcs-Browser: https://github.com/washort/ChaiScript
+
+Package: chaiscript
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Embedded dynamic language in C++
+ A JS-like language designed for embedding in C++ programs.
